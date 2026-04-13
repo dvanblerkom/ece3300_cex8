@@ -59,8 +59,8 @@ module fsm_example(
   always @(*)
   begin
      if (state == IDLE) begin
-	increment = 0;
-	decrement = 0;
+        increment = 0;
+        decrement = 0;
      end
      if (state == INCOCC) increment = 1;
      if (state == DECOCC) decrement = 1;
